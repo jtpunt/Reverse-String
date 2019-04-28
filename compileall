@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -o reverse-string reverse-string.c
