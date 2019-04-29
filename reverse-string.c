@@ -35,7 +35,6 @@ int main(){
 				myWord = extractWord(myStr, i, lastIdx);
 				strcat(reverseStr, myWord);
 				free(myWord);
-				lastIdx = i - 1;
 			}else{ // every other character is handled here
 				printf("%c - %d\n", myStr[i], i);
 			}
